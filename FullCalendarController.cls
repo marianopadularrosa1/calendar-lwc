@@ -124,4 +124,7 @@ public with sharing class FullCalendarController {
         return eventToUpdate.Id;
 
     }
+    
+    public class EventException extends Exception {}
+
 }
